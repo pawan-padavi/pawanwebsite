@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pawanwebsite/static/css/main.f76f2ba2.css",
+    "main.js": "/pawanwebsite/static/js/main.dddf7a5f.js",
+    "static/js/787.0d842d25.chunk.js": "/pawanwebsite/static/js/787.0d842d25.chunk.js",
+    "index.html": "/pawanwebsite/index.html",
+    "main.f76f2ba2.css.map": "/pawanwebsite/static/css/main.f76f2ba2.css.map",
+    "main.dddf7a5f.js.map": "/pawanwebsite/static/js/main.dddf7a5f.js.map",
+    "787.0d842d25.chunk.js.map": "/pawanwebsite/static/js/787.0d842d25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f76f2ba2.css",
+    "static/js/main.dddf7a5f.js"
+  ]
+}
