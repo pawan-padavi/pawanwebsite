@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import { Card } from "./Components/Card";
+import Sdata from "./Components/Sdata";
 function App() {
+  const height = "400px";
+  const width ='100%';
+  const style = {
+    borderRadius: "20px",
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h2 className="bg-danger text-center">All Are The Cards</h2>
+      {Sdata.map((val, index) => {
+        return (
+          <Card
+            key={index}
+            imgsrc={val.imgsrc}
+            height={height}
+            width={width}
+            style={style}
+          />
+        );
+      })}
+    </>
   );
 }
 
